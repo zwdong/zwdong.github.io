@@ -65,7 +65,7 @@
       
         <li class="list-item">
           
-            <a href="/" class="item-link active">主页</a>
+            <a href="/" class="item-link">主页</a>
           
         </li>
       
@@ -98,7 +98,7 @@
         
           <li class="menu-item">
             
-              <a href="/" class="menu-link mobile-active">主页</a>
+              <a href="/" class="menu-link">主页</a>
             
           </li>
         
@@ -125,67 +125,43 @@
   </div>
 </header>
 
-    <main class="app-body">
+    <div id="article-banner">
+  <h2>Archives</h2>
+  <p class="post-date">文章归档</p>
+</div>
+<main class="app-body" id="archives">
   
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/2018/04/25/挖矿01/">挖矿行业鸟瞰01</a>
-      </h2>
-      <p class="article-date">2018年4月25日</p>
-      
-        
-  <a href="/tags#矿场" >
-    <span class="tag-code">矿场</span>
-  </a>
-
-      
-      <div class="article-summary">
-        
-          1. 矿场行业现状（供给侧）当前（20180425）BTC全网算力约30Ehash/s，相当于约222万台蚂蚁S9+(13.5T,1.5KW)，即最少333万KW的矿场，或3330MW。
-与矿场相对应，目前矿池排名靠前的份额比例为：
-
-
-
-矿池
-占比
-矿池
-占比
-
-
-
-
-btc.com
-30 ...
-        
+  
+  
+    <section class="time-section">
+  <h1 class="section-year">
+    2018
+  </h1>
+  <div class="section-list">
+    
+    
+      <div class="section-list-item">
+        <a href="/2018/04/25/挖矿01/" class="archive-title">挖矿行业鸟瞰01</a>
+        <p class="archive-date">04-25</p>
       </div>
-      <a class="more" href="/2018/04/25/挖矿01/">Read more</a>
-    </article>
-  
-    <article class="article-card">
-      <h2 class="article-head">
-        <a href="/2018/02/06/hello-world/">Hello World</a>
-      </h2>
-      <p class="article-date">2018年2月6日</p>
-      
-        
-  <a href="/tags#潮流" >
-    <span class="tag-code">潮流</span>
-  </a>
-
-      
-      <div class="article-summary">
-        
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
-        
+    
+      <div class="section-list-item">
+        <a href="/2018/02/06/hello-world/" class="archive-title">Hello World</a>
+        <p class="archive-date">02-06</p>
       </div>
-      <a class="more" href="/2018/02/06/hello-world/">Read more</a>
-    </article>
-  
-
+    
+  </div>
+</section>
   
 </main>
 
-
+<script>
+  (function () {
+    var url = 'http://yoursite.com/tags/矿场/index.html';
+    $('#article-banner').geopattern(url);
+    $('.header').removeClass('fixed-header');
+  })();
+</script>
     <div class="scroll-top">
   <span class="arrow-icon"></span>
 </div>
