@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-25T09:20:03.490Z</updated>
+  <updated>2018-07-05T09:09:10.236Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>挖矿行业鸟瞰01</title>
+    <title>挖矿行业鸟瞰</title>
     <link href="http://yoursite.com/2018/04/25/%E6%8C%96%E7%9F%BF01/"/>
     <id>http://yoursite.com/2018/04/25/挖矿01/</id>
     <published>2018-04-25T01:23:41.821Z</published>
-    <updated>2018-04-25T09:20:03.490Z</updated>
+    <updated>2018-07-05T09:09:10.236Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1-矿场行业现状（供给侧）"><a href="#1-矿场行业现状（供给侧）" class="headerlink" title="1. 矿场行业现状（供给侧）"></a>1. 矿场行业现状（供给侧）</h2><p>当前（20180425）BTC全网算力约30Ehash/s，相当于约222万台蚂蚁S9+(13.5T,1.5KW)，即最少333万KW的矿场，或3330MW。</p><p>与矿场相对应，目前矿池排名靠前的份额比例为：</p><table><thead><tr><th>矿池</th><th style="text-align:right">占比</th><th>矿池</th><th style="text-align:right">占比</th></tr></thead><tbody><tr><td>btc.com</td><td style="text-align:right">30%</td><td>F2Pool</td><td style="text-align:right">7.3%</td></tr><tr><td>Antpool</td><td style="text-align:right">13.6%</td><td>DPOOL</td><td style="text-align:right">3.7%  </td></tr><tr><td>ViaBTC</td><td style="text-align:right">10.3%</td><td>WAYI.CN</td><td style="text-align:right">3.2%</td></tr><tr><td>SlushPool</td><td style="text-align:right">9.3%</td><td>BTCC</td><td style="text-align:right">2.4%</td></tr><tr><td>BTC.TOP</td><td style="text-align:right">7.3%</td><td>HaoPool</td><td style="text-align:right">2.2%</td></tr></tbody></table><p>如果矿场的集中度最终与矿池的集中度类似，那么：</p><ul><li>要挤进前10，需要保证占据至少全网2%以上的规模；</li><li>要挤进前5，需要保证占据至少全网7%以上的规模；</li><li>要挤进前3，需要保证占据至少全网10%以上的规模。</li></ul><p>整理一下，份额如下（以当前时点计）：</p><table><thead><tr><th>份额</th><th>规模</th><th>功率</th><th>算力</th><th>机器</th></tr></thead><tbody><tr><td>前10</td><td>2%+</td><td>7万KW/70MW</td><td>600P</td><td>约4.5万台</td></tr><tr><td>前5</td><td>7%+</td><td>23万KW/230MW</td><td>2100P</td><td>约15.5万台</td></tr><tr><td>前3</td><td>10%+</td><td>33万KW/330MW</td><td>3000P</td><td>约22万台</td></tr></tbody></table><p>从总量上来看，2016年末，全国发电装机容量<a href="http://news.bjx.com.cn/html/20171018/856052.shtml" target="_blank" rel="noopener">164575万千瓦</a>，其中：</p><table><thead><tr><th>类型</th><th>装机容量</th><th>同比增长率</th></tr></thead><tbody><tr><td>火电</td><td>105388万KW</td><td>+5.3%</td></tr><tr><td>水电</td><td>33211万KW</td><td>+3.9%</td></tr><tr><td>核电</td><td>3364万KW</td><td>+23.8%</td></tr><tr><td>并网风电</td><td>14864万KW</td><td>+13.2%</td></tr><tr><td>并网太阳能</td><td>7742万KW</td><td>+81.6%</td></tr></tbody></table><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>加上还有大量未统计进入的装机容量，矿业在供给侧完全可行。考虑到过去三年平均330%的增长率（4.3倍每年），以及过去一年（牛市）779%的增长率（8.8倍每年）。</p><p>因此，对于新进入的玩家如果要在一年后进入前10，前5；需在上述当前时点测算基础上至少扩大5倍。也就是到2019年6月：</p><table><thead><tr><th>份额</th><th>功率</th></tr></thead><tbody><tr><td>前10</td><td>35万KW/350MW</td></tr><tr><td>前5</td><td>115万KW/1150MW</td></tr><tr><td>前3</td><td>165万KW/1650MW</td></tr></tbody></table><h2 id="2-矿场作为一个服务（需求侧）"><a href="#2-矿场作为一个服务（需求侧）" class="headerlink" title="2. 矿场作为一个服务（需求侧）"></a>2. 矿场作为一个服务（需求侧）</h2><p>矿场行业这一市场的存在，有4个核心因素：</p><ol><li>POW类型的货币共识计算需要消耗大量能源（宏观）</li><li>政策默许（宏观）</li><li>矿场电比家庭电更便宜（微观）</li><li>专业的维护（微观）</li></ol><p>目前来看，第1点，是稳定的，业内暂时没有充分可靠的机制来代替POW；第2点，具有不确定性；第3点，第4点的稳健性体现在各家矿场具体的操作模式。</p>]]></content>
     
@@ -36,29 +36,6 @@
     
     
       <category term="矿场" scheme="http://yoursite.com/tags/%E7%9F%BF%E5%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/02/06/hello-world/"/>
-    <id>http://yoursite.com/2018/02/06/hello-world/</id>
-    <published>2018-02-06T10:13:29.045Z</published>
-    <updated>2018-02-09T08:45:39.267Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-      <category term="潮流" scheme="http://yoursite.com/tags/%E6%BD%AE%E6%B5%81/"/>
     
   </entry>
   
